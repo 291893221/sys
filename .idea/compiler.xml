@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base" target="11" />
       <module name="dao" target="11" />
       <module name="entity" target="11" />
       <module name="web" target="11" />
