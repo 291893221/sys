@@ -6,7 +6,7 @@
         <groupId>sys</groupId>
         <artifactId>base</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../base</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../base/pom.xml</relativePath>
     </parent>
     <groupId>sys</groupId>
     <artifactId>dao</artifactId>
