@@ -1,0 +1,4 @@
+server:
+    port: 80
+logging:
+    file: D:\\2019.01.02\\4_LOG\\prod\\sys-web.log

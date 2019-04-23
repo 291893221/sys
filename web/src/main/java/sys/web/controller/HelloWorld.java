@@ -9,7 +9,7 @@ import sys.entity.model.SysUser;
 public class HelloWorld {
 
 	/**
-	 * http://localhost:8080/sayHelloWorld
+	 * http://localhost/sayHelloWorld
 	 * @return
 	 */
 	@RequestMapping("sayHelloWorld")

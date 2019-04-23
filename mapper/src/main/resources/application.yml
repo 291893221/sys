@@ -1,0 +1,23 @@
+server:
+    port: 80
+    servlet:
+        session:
+            timeout: 1m
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+        username: test
+        password: test
+        type: com.alibaba.druid.pool.DruidDataSource
+    profiles:
+        active: dev
+    main:
+        allow-bean-definition-overriding: true
+mybatis:
+    mapper-locations: classpath:/mapper/*.xml
+    configuration:
+        log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+logging:
+    file: D:\\2019.01.02\\4_LOG\\sys\\web.log
+    level.com.demo.dao: info
