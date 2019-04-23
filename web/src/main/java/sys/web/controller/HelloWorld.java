@@ -1,13 +1,17 @@
 package sys.web.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import sys.entity.model.SysUser;
+import sys.mapper.dao.SysUserMapper;
 
 @Controller
 public class HelloWorld {
 
+	@Autowired
+	private SysUserMapper sysUserMapper;
 	/**
 	 * http://localhost/sayHelloWorld
 	 * @return
@@ -15,11 +19,10 @@ public class HelloWorld {
 	@RequestMapping("sayHelloWorld")
 	@ResponseBody
 	public Object sayHelloWorld() {
-
 		SysUser user = new SysUser();
-		user.setId(0);
-		user.setUsername("张三");
-		user.setPassword("10086");
+		user.setUsername("helloworld");
+		user.setPassword("111");
+		sysUserMapper.insert(user);
 		return user;
 	}
 }

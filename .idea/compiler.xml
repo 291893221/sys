@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dao" />
         <module name="entity" />
+        <module name="mapper" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,8 @@
       <module name="base" target="11" />
       <module name="dao" target="11" />
       <module name="entity" target="11" />
+      <module name="mapper" target="11" />
+      <module name="model" target="11" />
       <module name="web" target="11" />
     </bytecodeTargetLevel>
   </component>
