@@ -30,7 +30,8 @@
     </dependencies>
     <modules>
         <module>../web</module>
-        <module>../dao</module>
+        <module>../controller</module>
+        <module>../service</module>
         <module>../mapper</module>
         <module>../entity</module>
     </modules>

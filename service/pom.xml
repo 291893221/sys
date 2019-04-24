@@ -9,19 +9,18 @@
         <relativePath>../base/pom.xml</relativePath>
     </parent>
     <groupId>sys</groupId>
-    <artifactId>web</artifactId>
+    <artifactId>service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>web</name>
-    <packaging>war</packaging>
+    <name>service</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
             <groupId>sys</groupId>
-            <artifactId>controller</artifactId>
+            <artifactId>mapper</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-    </dependencies>
 
+    </dependencies>
 
 </project>
