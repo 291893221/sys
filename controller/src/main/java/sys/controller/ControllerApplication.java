@@ -5,8 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@MapperScan(basePackages = {"sys.mapper"})
 @SpringBootApplication
+@MapperScan(basePackages = {"sys.mapper"})
 @ComponentScan(basePackages = {"sys.controller","sys.service"})
 public class ControllerApplication {
 
