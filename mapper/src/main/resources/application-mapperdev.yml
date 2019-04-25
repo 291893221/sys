@@ -1,0 +1,7 @@
+logging:
+    file: D:\\2019.01.02\\4_LOG\\dev\\sys-web.log
+    level.sys.mapper.dao: debug
+    pattern:
+        console: '%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p})
+            %clr(${PID:- }){magenta} %clr(---){faint} %clr([%thread]){faint} %clr(%-40.40logger{39}){cyan}
+            %L %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'

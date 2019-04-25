@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/mapper/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/controller/pom.xml" />
+        <option value="$PROJECT_DIR$/schedule/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
