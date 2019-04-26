@@ -1,0 +1,9 @@
+server:
+    port: 8090
+spring:
+    devtools:
+        restart:
+            enabled: true
+
+logging:
+    file: D:\\2019.01.02\\4_LOG\\sys\\web.log

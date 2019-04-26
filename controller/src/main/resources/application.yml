@@ -1,5 +1,3 @@
-server:
-    port: 8080
-    servlet:
-        session:
-            timeout: 1m
+spring:
+  profiles:
+    active: mapper,controllerdev

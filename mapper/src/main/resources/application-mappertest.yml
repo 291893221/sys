@@ -1,7 +1,7 @@
 server:
     port: 8080
 logging:
-    file: D:\\2019.01.02\\4_LOG\\test\\sys-web.log
+    file: D:\\2019.01.02\\4_LOG\\sys\\test\\mapper.log
     level.com.demo.dao: debug
     pattern: null
     console: '%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p})

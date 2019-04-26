@@ -1,5 +1,12 @@
+server:
+    port: 8080
+spring:
+    devtools:
+        restart:
+            enabled: true
+
 logging:
-    file: D:\\2019.01.02\\4_LOG\\sys\\dev\\mapper.log
+    file: D:\\2019.01.02\\4_LOG\\dev\\sys-controller.log
     level.sys.mapper.dao: debug
     pattern:
         console: '%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p})
