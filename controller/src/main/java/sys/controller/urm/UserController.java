@@ -17,7 +17,7 @@ public class UserController {
 	private SysUserService sysUserService;
 
 	/**
-	 * http://localhost/urm/user/insert?username=URM001&password=123456
+	 * http://localhost:8080/urm/user/insert?username=URM001&password=123456
 	 *
 	 * @return String
 	 */

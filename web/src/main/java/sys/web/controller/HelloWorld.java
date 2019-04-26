@@ -13,7 +13,7 @@ public class HelloWorld {
 	@Autowired
 	private SysUserMapper sysUserMapper;
 	/**
-	 * http://localhost/sayHelloWorld
+	 * http://localhost:8090/sayHelloWorld
 	 * @return
 	 */
 	@RequestMapping("sayHelloWorld")
