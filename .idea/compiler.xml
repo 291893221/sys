@@ -11,6 +11,7 @@
         <module name="mapper" />
         <module name="schedule" />
         <module name="service" />
+        <module name="util" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="model" target="11" />
       <module name="schedule" target="11" />
       <module name="service" target="11" />
+      <module name="util" target="11" />
       <module name="web" target="11" />
     </bytecodeTargetLevel>
   </component>
