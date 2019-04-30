@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="controller" />
         <module name="entity" />
+        <module name="generator" />
         <module name="mapper" />
         <module name="schedule" />
         <module name="service" />
@@ -20,11 +21,13 @@
       <module name="controller" target="11" />
       <module name="dao" target="11" />
       <module name="entity" target="11" />
+      <module name="generator" target="1.5" />
       <module name="mapper" target="11" />
       <module name="model" target="11" />
+      <module name="mybatis-generator" target="11" />
       <module name="schedule" target="11" />
       <module name="service" target="11" />
-      <module name="util" target="11" />
+      <module name="util" target="1.5" />
       <module name="web" target="11" />
     </bytecodeTargetLevel>
   </component>

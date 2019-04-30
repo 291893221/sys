@@ -13,11 +13,13 @@
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/controller/pom.xml" />
         <option value="$PROJECT_DIR$/schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/generator/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/model/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-generator/pom.xml" />
       </set>
     </option>
   </component>
